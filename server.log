@@ -1,0 +1,29 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://172.16.222.137:7860
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [17/Sep/2026 08:21:19] code 400, message Bad request version ('û®ËnMh{¨\x9f\x7fne/\x18½\x06')
+127.0.0.1 - - [17/Sep/2026 08:21:19] code 400, message Bad request version ('\x07\x08\x83\x9ad\x8c\x9b-\x01\x13\x04Öy')
+127.0.0.1 - - [17/Sep/2026 08:21:19] "[31m[1m\x16\x03\x01\x07Ø\x01\x00\x07Ô\x03\x03UWJø\x92$M\x11ÖÕ»\x03¹\x15öò\x90\x89\x9eµÆ\x1dtµö.,Ð\x04u$\x86 o\x8b:ø\x10jÌ°§\x03ÇVUTÉ­~Xò\x95så\x0bÙøw¶\x96sRµç\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07kjj\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x0d\x00\x1a\x00\x18\x9a\x9a\x09\x04\x09\x05\x09\x06\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x01\x1a\x00\x00\x01\x00\x01ñ\x00 «-\x0d\x0c\\h(\x86\x92-a\x92\x061sGD\x8dú!\x1a\x96¾¡Õ\x84°]h\x19k\x1f\x00ðè!G#Ú·\x80±\x87ªqj«~òA\x8d]/À\x1aª\x96*5àþÝ÷x\x8eÏ5\x07l\x8a\x9f\x95\x8d\x04\x8bEê4p{\x98À1»i`i\x0f\x87tS8Â\\\x12\x05l\x0cû®ËnMh{¨\x9f\x7fne/\x18½\x06[0m" 400 -
+127.0.0.1 - - [17/Sep/2026 08:21:19] "[31m[1m\x16\x03\x01\x07Ø\x01\x00\x07Ô\x03\x03\x88Í\x9a,\x96\x9f\x8bXkË²UVF\x12r]\x82î<¶í\x91X\x0059¦Í¬¾¸ ô\x0c2ñ~×(\x10\x92,\x97~\x9aR ò\x11Ên\x10ÅÜ\x86<\x80\x969E÷:\x8dý\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07kJJ\x00\x00\x00\x0d\x00\x1a\x00\x18êê\x09\x04\x09\x05\x09\x06\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x00-\x00\x02\x01\x01Ê4\x00º\x00¸\x04Öy\x09\x0f\x04Öy\x09\x08\x08\x83\x9ad\x8c\x9b-\x01\x08\x05\x82ß\x13\x02\x0d\x08\x83\x9ad\x8c\x9b-\x01\x12\x04Öy\x09\x07\x08\x83\x9ad\x8c\x9b-\x01\x13\x04Öy\x09[0m" 400 -
+127.0.0.1 - - [17/Sep/2026 08:21:19] code 400, message Bad request version ('\x074\x95ZMq')
+127.0.0.1 - - [17/Sep/2026 08:21:19] "[31m[1m\x16\x03\x01\x07Ø\x01\x00\x07Ô\x03\x03ìé2Jt\x8b|\x1c»>\x03\x03¾4³Ìñä\x98i{\x91O'¼\x0b~î\x8aZý\x10 O\x9fýý~ÿÑâlÉ\x8co¦Õ\x8dx¬R"_\x0dÄÍ\x9f\x91¿Üúã_s{\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07k::\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02þ\x0d\x01\x1a\x00\x00\x01\x00\x01&\x00 ì\x8b"_(\x92\x87>Þ\x943C\x96~ú²äõSñ­Î~\x8eÞ1\x87\x91öÝÕ\x13\x00ð\x180\x9aÃãù\x82ÁøÞG\x10ãùÃ!\x89·L\x09¶åÏ\x91\x96kO\x9e\x15\x1e\x074\x95ZMq[0m" 400 -
+127.0.0.1 - - [17/Sep/2026 08:21:19] code 400, message Bad request version ('ÚÚ\x00\x00\x00')
+127.0.0.1 - - [17/Sep/2026 08:21:19] "[31m[1m\x16\x03\x01\x07x\x01\x00\x07t\x03\x03O\x0bÏ¿Á\x1c\x1eC\x85êÓÓ\x18O÷ï\x99Ë\x82s¿\x08¼p'uî%h ¨ç §\x0bÀ%of´\\I\x04R\x9d\x06\x88PKÍ\x01.<ù)ä\x14\x8duôÿ\x15çç×\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x07\x0bÚÚ\x00\x00\x00[0m" 400 -
+127.0.0.1 - - [17/Sep/2026 08:21:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2026 08:21:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2026 08:21:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/homebrew/Caskroom/miniconda/base/envs/kokoro/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/opt/homebrew/Caskroom/miniconda/base/envs/kokoro/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+/opt/homebrew/Caskroom/miniconda/base/envs/kokoro/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+127.0.0.1 - - [17/Sep/2026 08:21:49] "POST /api/tts HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2026 08:21:49] "[35m[1mGET /output/1789633309_Our_planet_is_facing_serious_environment.wav HTTP/1.1[0m" 206 -
+127.0.0.1 - - [17/Sep/2026 08:21:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [17/Sep/2026 08:21:51] "[35m[1mGET /output/1789633309_Our_planet_is_facing_serious_environment.wav HTTP/1.1[0m" 206 -
+127.0.0.1 - - [17/Sep/2026 08:21:51] "[35m[1mGET /output/1789633309_Our_planet_is_facing_serious_environment.wav HTTP/1.1[0m" 206 -
