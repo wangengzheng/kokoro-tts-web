@@ -40,3 +40,24 @@ python app.py
 - ✅ 会话内历史记录
 - ✅ ⌘/Ctrl + Enter 快捷生成
 - ✅ 响应式 + 无障碍（aria-live、role、键盘可达）
+
+## 守护运行（crontab.sh）
+
+```bash
+# 手动运行（默认端口 7860）
+./crontab.sh
+
+# 指定端口
+./crontab.sh -p 8000
+
+# 指定端口 + 日志文件
+./crontab.sh -p 8000 -l /tmp/tts.log
+
+# crontab 每 5 分钟检测一次，端口挂了自动拉起
+*/5 * * * * /Users/james/kokoro/web/crontab.sh >> /Users/james/kokoro/web/crontab.log 2>&1
+```
+
+脚本逻辑：
+1. 检测端口是否在监听（`lsof`），在运行则直接退出
+2. 未运行则激活 `kokoro` conda 环境，以 `PORT` 环境变量后台启动 `app.py`
+3. 启动后等待端口就绪，失败自动重试（最多 3 次）
