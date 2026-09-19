@@ -1,0 +1,15 @@
+# Core
+kokoro==0.9.4
+misaki==0.9.4
+flask==3.1.3
+numpy==2.4.6
+soundfile==0.14.0
+torch==2.14.0
+
+# G2P / NLP (misaki 依赖)
+spacy==3.8.16
+espeakng-loader==0.2.4
+transformers==5.17.0
+
+# spaCy 英文模型（pip 直装）
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl

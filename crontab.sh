@@ -4,7 +4,7 @@
 # 用途:   监控 Kokoro TTS 服务端口，如果未运行则自动启动 app.py
 # 依赖:   conda(kokoro 环境), lsof, nohup
 # 用法:   ./crontab.sh [-p 端口] [-l 日志文件] [-h]
-#         crontab 示例: */5 * * * * /Users/james/kokoro/web/crontab.sh >> /Users/james/kokoro/web/crontab.log 2>&1
+#         crontab 示例: */5 * * * * /path/to/this/dir/crontab.sh >> /path/to/this/dir/crontab.log 2>&1
 # =============================================================================
 
 # crontab 环境下 PATH 通常不完整，手动补全
